@@ -7,6 +7,9 @@ public class OuterKelas {
         private String situsWeb = "adaband.com";
         private void debut(){
             System.out.println("Nama Band : "+nama);
+            System.out.println("Vokalis : "+vokalis);
+            System.out.println("Tahun Terbentuk : "+thnTerbentuk);
+            System.out.println("Situs Web : "+situsWeb);
         }
     }
     private class Song{
@@ -16,6 +19,8 @@ public class OuterKelas {
         private String ciptaan = "Marshal & Donnie";
         private void release() {
             System.out.println("Judul Lagu : "+lagu);
+            System.out.println("Album : "+album);
+            System.out.println("Tahun Rilis : "+thnRilis);
         }
     }
     public static void main(String[] args) throws Exception {
