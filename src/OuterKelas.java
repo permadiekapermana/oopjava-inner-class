@@ -21,6 +21,7 @@ public class OuterKelas {
             System.out.println("Judul Lagu : "+lagu);
             System.out.println("Album : "+album);
             System.out.println("Tahun Rilis : "+thnRilis);
+            System.out.println("Ciptaan : "+ciptaan);
         }
     }
     public static void main(String[] args) throws Exception {
